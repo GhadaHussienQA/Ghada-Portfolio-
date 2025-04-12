@@ -10,7 +10,7 @@
       padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f0f0f0;
-      color: #333;
+      color: #2c3e50;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -19,80 +19,110 @@
 
     .card {
       background-color: #ffffff;
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
-      max-width: 600px;
+      padding: 50px;
+      border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+      max-width: 800px;
       width: 90%;
-      text-align: center;
+      text-align: left;
     }
 
     h1 {
-      color: #2c3e50;
+      font-size: 32px;
       margin-bottom: 10px;
-      font-size: 28px;
+      text-align: center;
+      color: #1e2a38;
+    }
+
+    p.intro {
+      font-size: 16px;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #555;
     }
 
     h2 {
-      margin-top: 30px;
-      color: #4a4a4a;
       font-size: 20px;
+      color: #2c3e50;
+      margin-top: 30px;
       border-bottom: 1px solid #ccc;
       padding-bottom: 5px;
     }
 
     ul {
-      list-style-type: none;
-      padding: 0;
+      list-style: none;
+      padding-left: 20px;
       margin-top: 10px;
     }
 
     ul li {
-      padding: 6px 0;
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #1e2a38;
+    }
+
+    .buttons {
+      margin-top: 40px;
+      text-align: center;
     }
 
     .buttons a {
       display: inline-block;
-      margin: 12px 10px 0;
-      padding: 10px 20px;
-      border-radius: 25px;
-      background-color: #2c3e50;
+      margin: 10px 15px;
+      padding: 12px 25px;
+      border-radius: 30px;
+      background-color: #1e2a38;
       color: #fff;
       text-decoration: none;
       font-weight: bold;
-      transition: background 0.3s;
+      transition: background 0.3s ease;
     }
 
     .buttons a:hover {
-      background-color: #1a252f;
+      background-color: #000;
     }
   </style>
 </head>
 <body>
   <div class="card">
     <h1>Ghada Hussien</h1>
-    <p>Software QA Engineer | Manual & Automation Testing | API Testing</p>
+    <p class="intro">Software QA Engineer | Manual & Automation Testing | API Testing</p>
 
     <h2>Manual Testing</h2>
     <ul>
-      <li>Test Cases, Test Scenarios & Bug Reports</li>
-      <li>Functional, Regression, Smoke & Sanity Testing</li>
-      <li>Bug Tracking Tools: Jira, Trello, Azure DevOps, Bugzilla</li>
-      <li>Test Management: TestRail, Zephyr, Xray</li>
-      <li>STLC, SDLC, Bug Life Cycle</li>
+      <li>Creating detailed Test Cases, Test Scenarios, and Traceability Matrices</li>
+      <li>Functional, Regression, Smoke, and Sanity Testing</li>
+      <li>Bug Reporting & Tracking using Jira, Azure DevOps, Trello, Bugzilla</li>
+      <li>Test Execution and Result Documentation with high accuracy</li>
+      <li>Test Management: Excel, TestRail, Zephyr, Xray</li>
+      <li>Exploratory Testing across browsers and responsive devices</li>
+      <li>UI/UX Validation to ensure intuitive user experience</li>
+      <li>Deep understanding of STLC, SDLC & Bug Life Cycle</li>
+      <li>Clear grasp of Severity vs. Priority and defect classification</li>
+      <li>Working in Agile/Scrum environments and sprint-based testing</li>
     </ul>
 
     <h2>API Testing</h2>
     <ul>
-      <li>Testing RESTful APIs using Postman</li>
-      <li>Creating API Test Scenarios & Validations</li>
+      <li>RESTful API Testing using Postman</li>
+      <li>Designing API Test Scenarios with assertions and validations</li>
+      <li>Authorization types, JSON structures, status codes</li>
+      <li>Simulating real user flows via API chaining</li>
     </ul>
 
     <h2>Automation Testing</h2>
     <ul>
-      <li>Java | Selenium WebDriver | TestNG | Cucumber</li>
-      <li>Framework Design: Page Object Model (POM)</li>
-      <li>Automation of E-commerce Projects</li>
+      <li>Automation using Java, Selenium WebDriver, TestNG, and Cucumber</li>
+      <li>Framework Design using Page Object Model (POM)</li>
+      <li>Writing reusable test scripts and maintaining automation suites</li>
+      <li>Using IntelliJ IDEA and Maven for project structure and build</li>
     </ul>
 
     <div class="buttons">
